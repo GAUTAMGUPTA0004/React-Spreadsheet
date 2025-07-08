@@ -19,16 +19,6 @@ function Header() {
       
       {/* Right side - user info and search */}
       <div className="flex items-center space-x-2">
-        {/* User avatars */}
-        <div className="flex -space-x-1">
-          <UserAvatar name="John Doe" size="md" />
-          <UserAvatar name="Alice Smith" size="md" />
-          <UserAvatar name="Bob Wilson" size="md" />
-        </div>
-        
-        {/* Divider */}
-        <div className="w-px h-6 bg-gray-300 mx-2"></div>
-        
         {/* Search box */}
         <div className="relative">
           <Search className="w-4 h-4 absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
